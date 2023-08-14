@@ -1,0 +1,6 @@
+name: kubernetes-plugin
+language: python
+commands:
+  - get pods
+  - list services
+  - describe deployments
