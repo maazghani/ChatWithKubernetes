@@ -5,7 +5,7 @@ def get_command(query):
   """Gets a kubectl command from OpenAI GPT."""
 
   url = "https://api.openai.com/v1/engines/gpt/completions"
-  headers = {"Authorization": "Bearer YOUR_API_KEY"}
+  headers = {"Authorization": "Bearer sk-7c5Gh5W2Wl8w66TvJetST3BlbkFJz02wLqOF4wstiphNlYnWge"}
   data = {"prompt": query}
 
   response = requests.post(url, headers=headers, data=data)
