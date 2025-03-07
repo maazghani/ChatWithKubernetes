@@ -1,4 +1,4 @@
 #!/bin/bash
 
-go build -o kubectl-nlp nlp/main.go
+go build -o kubectl-nlp cmd/nlp/main.go
 cp kubectl-nlp /usr/local/bin/kubectl-nlp
